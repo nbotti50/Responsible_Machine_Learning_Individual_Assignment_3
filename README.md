@@ -1,8 +1,8 @@
-# Responsible_Machine_Learning_Individual_Assignment_2 - COMPAS Analysis
+# Responsible_Machine_Learning_Individual_Assignment_3 - COMPAS Analysis
 
 ## The Purpose of the Analysis
 
-The purpose of the second individual assignment is to evaluate the fairness and predictive performance of the COMPAS risk assessment. The analysis examines recidivism outcomes across demographic groups, specifically comparing African-American defendants to White defendants. Explainability tools identify why the model assigns specific scores and determine if bias exists.
+The purpose of the second individual assignment is to evaluate the fairness and predictive performance of the COMPAS risk assessment. The analysis examines recidivism outcomes across demographic groups, specifically comparing African-American defendants to White defendants. Explainability tools identify why the model assigns specific scores and determine if bias exists. And, a disparate impact audit reveals how much harm was done across protected groups.
 
 This analysis used statistical tools such as logistic regression, Cox proportional hazards models, and Kaplan-Meier survival analysis to deeply investigate how well the model predicts recidivism and if those predictions are consistent across groups. Additionally, explainability tools such as DiCE, SHAP, and LIME were used to identify feature influence in the predictions the model outputs. Lastly, analysis focusing on quantifying the harm across groups was done, doing disparate impact testing (Adverse Impact Ratio), Interesectional Analysis, Error Rate Partiy, and evaluated SMD and ME. Here is how these tools were used more specifically: 
 
