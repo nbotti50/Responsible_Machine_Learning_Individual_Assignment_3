@@ -18,9 +18,9 @@ This analysis used statistical tools such as logistic regression, Cox proportion
 
 - DiCE (Diverse Counterfactual Explanations) was used to not only see what influenced the prediction, but reveal what would have to change in order for the model to predict a different outcome, potentially revealing immutable feature changes that raise a red flag.
 
-- Disparate Impact Testing: Using the Adverse Impact Ratio (AIR) to determine if protected groups receive favorable outcomes (Low Risk scores) at a significantly lower rate than reference groups. ME and SMD also provided insight into the absolute magnitude and statistical distribution of the disparity.
+- Disparate Impact Testing through the Adverse Impact Ratio (AIR) to determine if protected groups receive favorable outcomes (Low Risk scores) at a significantly lower rate than reference groups. ME and SMD also provided insight into the absolute magnitude and statistical distribution of the disparity.
 
-- Error Rate Parity: Analyzing False Positive Rates (FPR) and False Negative Rates (FNR) to identify "errors of over-prediction" that disproportionately affect protected classes.
+- Error Rate Parity was done by analyzing False Positive Rates (FPR) and False Negative Rates (FNR) to identify "errors of over-prediction" that disproportionately affect protected classes.
 
 ---
 
